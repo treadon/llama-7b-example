@@ -6,8 +6,8 @@ This README provides instructions on how to run the LLaMa model on a Windows mac
 Clone the repo and run ./launch.ps1.
 
 ```bash
-git clone <repo_url>
-cd <repo_folder>
+git clone git@github.com:treadon/llama-7b-example.git
+cd llama-7b-example
 ./launch.ps1
 ```
 
