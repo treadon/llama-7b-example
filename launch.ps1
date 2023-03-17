@@ -10,8 +10,7 @@ if (Test-Path $venvName)
 }
 
 & ".\$venvName\Scripts\Activate.ps1"
-pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu118
-pip install git+https://github.com/huggingface/transformers.git@refs/pull/21955/merge
-pip install sentencepiece
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install -r .\requirements.txt
 
 python .\src\llama.py

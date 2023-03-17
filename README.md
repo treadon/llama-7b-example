@@ -18,8 +18,8 @@ This will create a virtual environment (venv), install the required packages, an
 If the script fails to run, ensure that you have the following packages installed:
 
 ```bash
-pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu118
-pip install git+https://github.com/huggingface/transformers.git@refs/pull/21955/merge
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install transformers
 pip install sentencepiece
 ```
 
