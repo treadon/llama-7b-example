@@ -2,8 +2,8 @@ import transformers
 
 device = "cpu"
 
-tokenizer = transformers.LLaMATokenizer.from_pretrained("decapoda-research/llama-7b-hf")
-model = transformers.LLaMAForCausalLM.from_pretrained("decapoda-research/llama-7b-hf").to(device)
+tokenizer = transformers.LlamaTokenizer.from_pretrained("decapoda-research/llama-7b-hf")
+model = transformers.LlamaForCausalLM.from_pretrained("decapoda-research/llama-7b-hf").to(device)
 
 batch = tokenizer(
     "The capital of Canada is",

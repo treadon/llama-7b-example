@@ -1,2 +1,2 @@
-git+https://github.com/zphang/transformers.git@3884da12ce327667d4df5101aef3533cc32be61f
+git+https://github.com/huggingface/transformers
 sentencepiece
